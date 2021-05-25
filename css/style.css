@@ -85,3 +85,40 @@ h1 .text2 {
 .badge {
   font-weight: normal;
 }
+@media only screen and (max-width: 700px) {
+  .stt {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  h1 .text1 {
+    font-size: 2rem;
+  }
+  h1 .text2 {
+    font-size: 3rem;
+  }
+  .bordleft {
+    border-width: 5px;
+    font-size: 1.2rem;
+  }
+  .fs-5 {
+    font-size: 0.9rem !important;
+  }
+  .btn-lg {
+    padding: 0.4rem 0.8rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+  }
+  .navbar-logo {
+    font-size: 2rem;
+  }
+  .call-btn {
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin: 0.7rem 0;
+  }
+}
