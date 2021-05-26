@@ -85,7 +85,13 @@ h1 .text2 {
 .badge {
   font-weight: normal;
 }
+.navbar-lo {
+  height: 50px;
+}
 @media only screen and (max-width: 700px) {
+  .navbar-lo {
+    height: 30px;
+  }
   .stt {
     position: sticky;
     top: 0;
